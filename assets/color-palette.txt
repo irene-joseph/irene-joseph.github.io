@@ -1,0 +1,5 @@
+color-palette
+E5E3C9
+B4CFB0
+94B49F
+789395
