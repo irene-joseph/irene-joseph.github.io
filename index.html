@@ -9,143 +9,144 @@
   <title>Irene's Portfolio</title>
   <style>
   :root {
-      --person-size: 200px;
-      --person-skin: #c58c85;
-      --person-hair : black;
-      --person-belly: white;
-      --person-beak: orange;
-    }
-
-    @media (max-width: 1000px) {
-      :root {
     --person-size: 200px;
-    --person-skin: black;
-      }
-    }
-
-     h1 {
-      font-family: monospace;
-  	  font-size: 50px;
-    }
-
-    .person {
-      position: relative;
-      margin: auto;
-      display: block;
-      margin-top: 5%;
-      width: var(--person-size, 300px);
-      height: var(--person-size, 300px);
-
-    }
-
-    .person-top {
-      top: 10%;
-      left: 25%;
-      background: var(--person-skin, gray);
-      width: 50%;
-      height: 55%;
-      border-radius: 70% 70% 80% 80%;
-    }
-
-    .right-eye {
-      top: 45%;
-      left: 60%;
-      background: black;
-      width: 15%;
-      height: 17%;
-      border-radius: 50%;
-    }
-
-    .left-eye {
-      top: 45%;
-      left: 25%;
-      background: black;
-      width: 15%;
-      height: 17%;
-      border-radius: 50%;
-    }
-
-    .sparkle {
-      top: 25%;
-      left:-23%;
-      background: #c58c85;
-      width: 150%;
-      height: 77%;
-      border-radius: 50%;
-    }
-
-    .eyebrow-right {
-      top: 35%;
-      left: 55%;
-      background: black;
-      width: 25%;
-      height: 10%;
-      border-radius: 50%;
-    }
-
-    .eyebrow-left {
-      top: 35%;
-      left: 17%;
-      background: black;
-      width: 25%;
-      height: 10%;
-      border-radius: 50%;
-    }
-  .mouth {
-    background-color: #FF715A;
-    width: 35px;
-    height: 15px;
-    border-radius: 7px 7px 50px 50px;
-    top: 65%;
-    left: 30%;
-    }
-  .teeth{
-    background-color: white;
-    width: 35px;
-    height: 3px;
-    top: 0%;
-    left: 0%;
-    border-radius: 3px;
+    --person-skin: #c58c85;
+    --person-hair : black;
+    --person-belly: white;
+    --person-beak: orange;
   }
 
-    .hair {
-      top: 0%;
-      left: 20%;
-      background: var(--person-hair, gray);
-      width: 60%;
-      height: 69%;
-      border-radius: 705% 705% 80% 80%;
-      z-index: -1;
+  @media (max-width: 1000px) {
+    :root {
+  --person-size: 200px;
+  --person-skin: #c58c85;
     }
+  }
 
-    body {
-      background:#c6faf1;
-    }
+   h1 {
+    font-family: monospace;
+	  font-size: 50px;
+  }
 
-    .neck {
+  .person {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+
+    width: var(--person-size, 300px);
+    height: var(--person-size, 300px);
+
+  }
+
+  .person-top {
+    top: 10%;
+    left: 23%;
+    background: var(--person-skin, gray);
+    width: 50%;
+    height: 55%;
+    border: 3px solid #000;
+    border-radius: 70% 70% 80% 80%;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left:-23%;
+    background: #c58c85;
+    width: 150%;
+    height: 77%;
+    border-radius: 50%;
+  }
+
+  .eyebrow-right {
+    top: 35%;
+    left: 55%;
+    background: black;
+    width: 25%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .eyebrow-left {
+    top: 35%;
+    left: 17%;
+    background: black;
+    width: 25%;
+    height: 10%;
+    border-radius: 50%;
+  }
+.mouth {
+  background-color: #FF715A;
+  width: 35px;
+  height: 15px;
+  border: 3px solid #8b160e;
+  border-radius: 7px 7px 50px 50px;
+  top: 65%;
+  left: 28%;
+  }
+.teeth{
+  background-color: white;
+  width: 35px;
+  height: 3px;
+  top: 0%;
+  left: 0%;
+  border-radius: 1px;
+}
+
+  .hair {
+    top: 0%;
+    left: 20%;
+    background: var(--person-hair, gray);
+    width: 60%;
+    height: 69%;
+    border-radius: 705% 705% 80% 80%;
+    z-index: -1;
+  }
+  .neck {
     top: 62%;
-    left: 40%;
+    left: 37%;
     background: var(--person-skin, gray);
     width: 20%;
     height: 10%;
+    border: 3px solid #000;
+    z-index: -1;
+
   }
 .person-bottom {
-    top: 70%;
-    left: 20%;
+    top: 72%;
+    left: 18%;
     background: #B4CFB0;
-    border-color: black;
     width: 60%;
-    height: 19%;
-    border-radius: 705% 705% 80% 80%;
+    height: 5%;
+    border: 3px solid #000;
+    border-radius: 300% 300% 80% 80%;
     z-index: -1;
   }
   body {
     background:#c6faf1;
   }
-
   .person * {
     position: absolute;
   }
+
   </style>
 </head>
 
