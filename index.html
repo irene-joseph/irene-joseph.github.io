@@ -122,10 +122,30 @@
       background:#c6faf1;
     }
 
-    .person * {
-      position: absolute;
-    }
+    .neck {
+    top: 62%;
+    left: 40%;
+    background: var(--person-skin, gray);
+    width: 20%;
+    height: 10%;
+  }
+.person-bottom {
+    top: 70%;
+    left: 20%;
+    background: #B4CFB0;
+    border-color: black;
+    width: 60%;
+    height: 19%;
+    border-radius: 705% 705% 80% 80%;
+    z-index: -1;
+  }
+  body {
+    background:#c6faf1;
+  }
 
+  .person * {
+    position: absolute;
+  }
   </style>
 </head>
 
@@ -150,6 +170,8 @@
       <div class="teeth"></div>
  </div>
 </div>
+<div class="neck"></div>
+<div class="person-bottom"></div>
 
 </div>
 <div class="myname">
