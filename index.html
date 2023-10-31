@@ -1,184 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Irene Joseph">
-  <meta name="twitter:" content="@IreneJ0seph">
-  <link rel="stylesheet" type="text/css" href="assets/css/tyle.css">
-  <title>Irene's Portfolio</title>
-  <style>
-  :root {
-    --person-size: 200px;
-    --person-skin: #c58c85;
-    --person-hair : black;
-    --person-belly: white;
-    --person-beak: orange;
-  }
-
-  @media (max-width: 1000px) {
-    :root {
-  --person-size: 200px;
-  --person-skin: #c58c85;
-    }
-  }
-
-   h1 {
-    font-family: monospace;
-	  font-size: 50px;
-  }
-
-  .person {
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 5%;
-
-    width: var(--person-size, 300px);
-    height: var(--person-size, 300px);
-
-  }
-
-  .person-top {
-    top: 10%;
-    left: 23%;
-    background: var(--person-skin, gray);
-    width: 50%;
-    height: 55%;
-    border: 3px solid #000;
-    border-radius: 70% 70% 80% 80%;
-  }
-
-  .right-eye {
-    top: 45%;
-    left: 60%;
-    background: black;
-    width: 15%;
-    height: 17%;
-    border-radius: 50%;
-  }
-
-  .left-eye {
-    top: 45%;
-    left: 25%;
-    background: black;
-    width: 15%;
-    height: 17%;
-    border-radius: 50%;
-  }
-
-  .sparkle {
-    top: 25%;
-    left:-23%;
-    background: #c58c85;
-    width: 150%;
-    height: 77%;
-    border-radius: 50%;
-  }
-
-  .eyebrow-right {
-    top: 35%;
-    left: 55%;
-    background: black;
-    width: 25%;
-    height: 10%;
-    border-radius: 50%;
-  }
-
-  .eyebrow-left {
-    top: 35%;
-    left: 17%;
-    background: black;
-    width: 25%;
-    height: 10%;
-    border-radius: 50%;
-  }
-.mouth {
-  background-color: #FF715A;
-  width: 35px;
-  height: 15px;
-  border: 3px solid #8b160e;
-  border-radius: 7px 7px 50px 50px;
-  top: 65%;
-  left: 28%;
-  }
-.teeth{
-  background-color: white;
-  width: 35px;
-  height: 3px;
-  top: 0%;
-  left: 0%;
-  border-radius: 1px;
-}
-
-  .hair {
-    top: 0%;
-    left: 20%;
-    background: var(--person-hair, gray);
-    width: 60%;
-    height: 69%;
-    border-radius: 705% 705% 80% 80%;
-    z-index: -1;
-  }
-  .neck {
-    top: 62%;
-    left: 37%;
-    background: var(--person-skin, gray);
-    width: 20%;
-    height: 10%;
-    border: 3px solid #000;
-    z-index: -1;
-
-  }
-.person-bottom {
-    top: 72%;
-    left: 18%;
-    background: #B4CFB0;
-    width: 60%;
-    height: 5%;
-    border: 3px solid #000;
-    border-radius: 300% 300% 80% 80%;
-    z-index: -1;
-  }
-  body {
-    background:#c6faf1;
-  }
-  .person * {
-    position: absolute;
-  }
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+        body {
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 
 <body>
-</style>
-<div class="person">
-<div class="hair"></div>
-<div class="person-top">
-  <div class="right-eye">
-    <div class="sparkle"></div>
-  </div>
-  <div class="left-eye">
-    <div class="sparkle"></div>
-  </div>
-  <div class="eyebrow-right">
-    <div class="sparkle"></div>
-  </div>
-  <div class="eyebrow-left">
-    <div class="sparkle"></div>
-  </div>
-    <div class="mouth">
-      <div class="teeth"></div>
- </div>
-</div>
-<div class="neck"></div>
-<div class="person-bottom"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-</div>
-<div class="myname">
-<em><h1 align="center">Hi! I'm Irene Joseph :)</h1></em>
-<p align="center">(website under development)</p>
-</div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <!-- Your projects go here -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <!-- Your about me content goes here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <!-- Your contact form goes here -->
+        </div>
+    </section>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
