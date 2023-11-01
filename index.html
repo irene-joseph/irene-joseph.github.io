@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-        /* Add your custom styles here */
         body {
             background-color: #f8f9fa;
         }
@@ -45,7 +44,6 @@
     <section id="portfolio" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Portfolio</h2>
-            <!-- Your projects go here -->
         </div>
     </section>
 
@@ -53,7 +51,6 @@
     <section id="about" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">About Me</h2>
-            <!-- Your about me content goes here -->
         </div>
     </section>
 
@@ -61,7 +58,21 @@
     <section id="contact" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Contact Me</h2>
-            <!-- Your contact form goes here -->
+            <form action="process_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
         </div>
     </section>
 
